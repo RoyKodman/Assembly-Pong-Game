@@ -57,6 +57,6 @@ Feel free to fork this repository and submit pull requests with improvements or 
 This project is licensed under the MIT License - see the [MIT LICENSE](LICENSE) file for details.
 
 ## Authors
-- **Roy Kodman**
-- **Amit Levy Tzedek** 
+- **[@RoyKodman](https://github.com/RoyKodman)**
+- **[@AmitLevyTzedek](https://github.com/AmitLevyTzedek)** 
 
