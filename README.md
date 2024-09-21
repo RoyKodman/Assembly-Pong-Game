@@ -9,6 +9,7 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
 
 ## Features
 - **Classic Pong Gameplay:** Two-player mode with paddle movement and scoring.
+  ![Example](screenshots/Pong.png "Classic Pong Gameplay")
 - **Portal Gates:** Teleport the ball between two portal gates positioned on opposite sides of the screen, adding a unique twist to the gameplay.
 - **Variable Ball Speed:** The speed and direction of the ball change depending on whether it hits the center or the edges of the paddle, adding a layer of strategy to the game.
 - **Special Purple Ball:** After 3 total points, a special blinking purple ball appears. Scoring with this ball grants double points.
