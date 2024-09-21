@@ -1,7 +1,7 @@
 # Assembly-Pong-Game
 
 ## Overview
-Assembly-Pong-Game is an upgraded version of the classic Pong game, implemented in 8086 assembly language. The game features various advanced elements such as portal gates for ball teleportation, variable ball speed based on paddle hit location, and detailed game statistics at the end. 
+Assembly-Pong-Game is an upgraded version of the classic Pong game, implemented in 8086 assembly language. The game [features](#features) various advanced elements such as portal gates for ball teleportation, variable ball speed based on paddle hit location, and detailed game statistics at the end. 
 The project is designed to demonstrate the power and complexity that can be achieved with assembly language programming.
 
 Developed as a final project in "Microprocessors and Assembly Language" course, Bar-Ilan University.
@@ -36,7 +36,7 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
    - An assembler like MASM or TASM.
    - An emulator like DOSBox for running the 8086 assembly code on modern systems.
 2. **Compilation using DOSBox and MASM assebmler:**
-   - Locate the file: (usually under `masm/bin` folder)
+   - Locate the file: (usually under `masm\bin` folder)
      ```
      cd <code location> 
      ```
