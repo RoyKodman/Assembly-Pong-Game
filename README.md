@@ -6,6 +6,7 @@ The project is designed to demonstrate the power and complexity that can be achi
 
 Developed as a final project in "Microprocessors and Assembly Language" course, Bar-Ilan University.
 
+
 ## Features
 - **Classic Pong Gameplay:** Two-player mode with paddle movement and scoring.
 - **Portal Gates:** Teleport the ball between two portal gates positioned on opposite sides of the screen, adding a unique twist to the gameplay.
@@ -13,6 +14,7 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
 - **Special Purple Ball:** After 3 total points, a special blinking purple ball appears. Scoring with this ball grants double points.
 - **Detailed Game Statistics:** Track and display statistics like corner hits (on the paddle), center hits (on the paddle), and portal passes for both players at the end of the game.
 - **Custom Clock Interrupts:** A custom interrupt handler is used for smooth ball movement and game timing.
+
 
 ## How to Play
 1. **Number of Players:** 2
@@ -31,10 +33,12 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
      Scoring with this ball gives 2 points.
    - The green portals can teleport the ball, both forwards and backwards, adding unpredictability to the game.
 
+
 ## Compilation and Execution
 1. **Prerequisites:**
    - An assembler like MASM or TASM.
    - An emulator like DOSBox for running the 8086 assembly code on modern systems.
+
 2. **Compilation using DOSBox and MASM assebmler:**
    - Locate the file: (usually under `masm\bin` folder)
      ```
@@ -44,6 +48,7 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
      ```
      ml /Zm pong.asm
      ```
+
 3. **Execution:**
    - After the executable is created, you can run it and play the game:
      ```
@@ -53,8 +58,10 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
 ## Contributing
 Feel free to fork this repository and submit pull requests with improvements or new features. Please make sure to test thoroughly before submitting any changes.
 
+
 ## License
 This project is licensed under the MIT License - see the [MIT LICENSE](LICENSE) file for details.
+
 
 ## Authors
 - **[@RoyKodman](https://github.com/RoyKodman)**
