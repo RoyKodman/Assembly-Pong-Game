@@ -10,17 +10,23 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
 ## Features
 - **Classic Pong Gameplay:** Two-player mode with paddle movement and scoring -
   [Example](Screenshots/Pong.png) .
+
 - **Portal Gates:** Teleport the ball between two portal gates positioned on opposite sides of the screen, adding a unique twist to the gameplay.
-- **Variable Ball Speed:** The speed and direction of the ball change depending on whether it hits the center or the edges of the paddle, adding a layer of strategy to the game.
+
+- **Variable Ball Speed:** Hitting the center of the paddle returns the ball at normal speed, while hitting the edges increases speed and changes the angle, adding strategic depth to the gameplay. The ball color    changes to indicate speed and direction. 
+
 - **Special Purple Ball:** After 3 total points, a special blinking purple ball appears. Scoring with this ball grants double points -
    [Example](Screenshots/Purple-Ball-Mode.png) .
+
 - **Detailed Game Statistics:** Track and display statistics like corner hits (on the paddle), center hits (on the paddle), and portal passes for both players at the end of the game -
   [Example](Screenshots/Game-Over.png) .
+
 - **Custom Clock Interrupts:** A custom interrupt handler is used for smooth ball movement and game timing.
 
 
 ## How to Play
 1. **Number of Players:** 2
+
 2. **Player Controls:**
    - **Player 1 (Left Side - Blue):**
      - `W` - Move paddle up
@@ -28,9 +34,11 @@ Developed as a final project in "Microprocessors and Assembly Language" course, 
    - **Player 2 (Right Side - Red):**
      - `↑` - Move paddle up
      - `↓` - Move paddle down
+
 3. **Objective:**
    - Prevent the ball from entering your goal while attempting to score against your opponent.
    - The game ends when a player scores 5 points.
+
 4. **Special Rules:**
    - The ball changes it's color for blinking purple after 3 total points were scored. 
      Scoring with this ball gives 2 points.
